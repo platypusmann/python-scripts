@@ -1,0 +1,4 @@
+Logging files with '.txt' extension in directory: .
+
+test_file.txt - 21 bytes
+log.txt - 0 bytes
