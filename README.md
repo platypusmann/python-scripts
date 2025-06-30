@@ -25,6 +25,30 @@ A script that:
 
 ---
 
+## 📁 Project: System Monitor (with Crontab)
+
+A Python script that:
+- Collects system resource usage (CPU, Memory, Disk)
+- Logs entries with timestamps to `system_log.txt`
+- Is scheduled to run every 1 minute using Crontab
+
+### Script: `system_monitor.py`
+
+#### 💡 Features
+- Uses the `psutil` library for system metrics
+- Logs to a file even when terminal is closed
+- Ideal for lightweight server monitoring
+
+---
+
+### 🕒 Crontab Setup
+
+To run the script every minute:
+
+```cron
+* * * * * /usr/bin/python3 /home/platypus/amazon_intern/python_scripts/system_monitor.py
+
+
 ## 📌 Author
 
 **Ranveer Bhasin**  
