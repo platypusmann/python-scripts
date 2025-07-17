@@ -1,13 +1,16 @@
 # LogParser Pro
 
-LogParser Pro is a command-line tool built in Python to parse and filter system log files.
+**LogParser Pro** is a Python-based command-line tool for parsing, filtering, and analyzing log files. It demonstrates object-oriented programming, Python decorators, and unit testing practices as part of my preparation for the Amazon Systems Development Internship 2025.
+
+---
 
 ## Features
-- Filter logs by date, log level, and keyword
-- OOP-based design
-- Uses decorators and context managers
 
-## Usage
-```
-python logparser.py --file logs/sample.log --level ERROR
-```
+- Filter logs by:
+  - Log level (e.g., `INFO`, `ERROR`)
+  - Date (`YYYY-MM-DD`)
+  - Keyword or phrase
+- Modular, class-based design (`LogParser`, `LogEntry`)
+- Uses custom decorators for logging and timing
+- Unit-tested using `pytest`
+
